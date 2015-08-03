@@ -1,10 +1,8 @@
 {
 	
-	"schema" : "",
-	"nodes" : [
-		
-		{ "ipAddress" : "192.168.0.1", "name" : "fasServer" },
-		{ "ipAddress" : "192.168.0.2", "name" : "flsServer" }
-		
+	"$schema" : "formSchema.json",
+	"nodes": [
+		{"ipAddress": ""}
 	]
+	
 }

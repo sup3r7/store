@@ -1,0 +1,42 @@
+{
+
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net",
+  "type": "object",
+  "properties": {
+    "nodes": {
+      "id": "http://jsonschema.net/nodes",
+      "type": "array",
+      "items": {
+        "id": "http://jsonschema.net/nodes/0",
+        "type": "object",
+        "properties": {
+          "ipAddress": {
+            "id": "http://jsonschema.net/nodes/0/ipAddress",
+            "type": "string"
+          },
+          "name": {
+            "id": "http://jsonschema.net/nodes/0/name",
+            "type": "string"
+          }
+        },
+        "required": [
+          "ipAddress",
+          "name"
+        ]
+      },
+      "required": [
+        "0"
+      ]
+    }
+  },
+  "required": [
+    "nodes"
+  ],
+
+	"nodes" : [
+		 
+
+	
+	]
+}
